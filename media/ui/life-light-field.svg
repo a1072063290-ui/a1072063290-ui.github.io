@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" fill="none">
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="1800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#71877E" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#71877E" stop-opacity="0.22"/>
+      <stop offset="0.78" stop-color="#71877E" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#71877E" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(900 604) rotate(90) scale(500 720)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7BCB3" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#A7BCB3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="900" cy="604" rx="720" ry="500" fill="url(#glow)"/>
+  <g stroke="url(#rail)" stroke-width="1">
+    <path d="M0 204H1800"/>
+    <path d="M0 626H1800"/>
+    <path d="M0 1048H1800"/>
+  </g>
+  <g stroke="#50675E" stroke-opacity="0.1" stroke-width="1">
+    <path d="M250 0V1250"/>
+    <path d="M650 0V1250"/>
+    <path d="M1150 0V1250"/>
+    <path d="M1550 0V1250"/>
+  </g>
+  <g stroke="#70877D" stroke-opacity="0.16" stroke-width="1.1">
+    <ellipse cx="900" cy="604" rx="570" ry="312"/>
+    <ellipse cx="900" cy="604" rx="650" ry="370"/>
+    <ellipse cx="900" cy="604" rx="740" ry="432"/>
+    <path d="M185 825C422 700 552 438 842 392C1124 348 1314 520 1622 412"/>
+    <path d="M120 903C392 780 570 512 846 474C1122 438 1364 620 1712 508"/>
+  </g>
+  <g stroke="#334A41" stroke-opacity="0.2" stroke-width="1">
+    <path d="M238 204H262M250 192V216M638 626H662M650 614V638M1138 204H1162M1150 192V216M1538 1048H1562M1550 1036V1060"/>
+    <rect x="445" y="754" width="18" height="18" rx="3"/>
+    <rect x="1318" y="318" width="24" height="24" rx="4"/>
+    <rect x="1490" y="820" width="14" height="14" rx="2"/>
+  </g>
+</svg>
